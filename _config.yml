@@ -5,14 +5,14 @@
 # Site
 title: 老徐的博客
 subtitle:
-description:
+description: java SpringBoot Python
 author: 徐长建
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://xcj01010203.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -28,7 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -53,7 +53,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: 爬坑日记
+default_category: java
 category_map:
 tag_map:
 

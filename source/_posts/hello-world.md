@@ -1,16 +1,20 @@
 ---
 title: Office转PDF
+date: 2013-07-14 17:01:34
 tags:
 - JodConverter
 categories:
 - JAVA
+description: 介绍使用JodConverter把文件转换为pdf文件的java方法。本文使用了jodconverter2.2.1和jodconverter3.0两个版本的api
 ---
+
+![cmd-markdown-logo](/images/bg.jpg)
+
 #### 利用jodconverter2.2.1
 -  缺点：openoffice一旦启动，便一直存在于内存中，占用内存
 - 优点：如果经常需要执行转换操作，则省去了大量启动/关闭openoffice服务的时间，而且适用于多并发访问的情况
 - 使用场景：在经常需要转换的时候使用
 - 补充：此种解决方式有一个致命的弊端，自己手动启动的openoffice服务会无故关闭，暂时找不到很好的解决办法
-<!--more-->
 ```
 <dependency>
 <groupId>com.artofsolving</groupId>
