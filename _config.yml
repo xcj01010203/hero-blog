@@ -79,3 +79,10 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:xcj01010203/xcj01010203.github.io.git
+
+#search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
